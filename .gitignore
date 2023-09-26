@@ -17,7 +17,7 @@ client/.env.local
 /client/.env.development.local
 /client/.env.test.local
 /client/.env.production.local
-
+.DS_Store
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
