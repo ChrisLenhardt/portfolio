@@ -1,5 +1,15 @@
 import type { Config } from "tailwindcss";
-
+import defaultTheme from 'tailwindcss/defaultTheme';
+module.exports = {
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['InterVariable', ...defaultTheme.fontFamily.sans],
+      },
+    },
+  },
+  // ...
+}
 const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
