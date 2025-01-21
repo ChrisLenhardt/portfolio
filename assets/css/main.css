@@ -8,13 +8,20 @@
 */
 
 .responsive-image {
+	display: block;
 	width: 100%;
-	max-width: 400px;
+	max-width: 350px;
+	max-height: 205px;
 	height: auto;
 	border-radius: .35em;
 	transition: 400ms;
+	object-fit: cover;
+	object-position: center;
   }
 .responsive-image:hover {
+	max-width: 385px;
+	max-height: 225.5px;
+	height: auto;
 	width:105%;
 }
 
