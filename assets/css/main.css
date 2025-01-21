@@ -11,7 +11,12 @@
 	width: 100%;
 	max-width: 400px;
 	height: auto;
+	border-radius: .35em;
+	transition: 400ms;
   }
+.responsive-image:hover {
+	width:105%;
+}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
